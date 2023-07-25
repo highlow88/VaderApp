@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
                         .readText(Charsets.UTF_8)
 
                 //http://maps.openweathermap.org/maps/2.0/weather/{op}/{z}/{x}/{y}?appid={API key}
-
+                //"https:api.openweathermap.org/data/2.5/weather?q$CITY&units=metric&appid=$API"
             } catch (e: Exception) {
                 responese = null
             }
